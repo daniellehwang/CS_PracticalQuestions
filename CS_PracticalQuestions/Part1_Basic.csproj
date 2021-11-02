@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{16A7E2C8-CD93-47B7-AD75-F4E41F630CBF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CS_PracticalQuestions</RootNamespace>
+    <AssemblyName>CS_PracticalQuestions</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="014_Convert.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="002_ConsoleReadWrite.cs" />
+    <None Include="001_HelloWorld.cs" />
+    <None Include="003_Variable.cs" />
+    <None Include="004_string.cs" />
+    <None Include="005_Assignment.cs" />
+    <None Include="006_ConsoleWriteLine.cs" />
+    <None Include="007_ConsoleWriteLineMulti.cs" />
+    <None Include="008_VariablesAndWrite.cs" />
+    <None Include="009_ConsoleFormat.cs" />
+    <None Include="010_FormatSpecifier.cs" />
+    <None Include="011_FloatDoubleDecimal.cs" />
+    <None Include="012_TypeConversion.cs" />
+    <None Include="013_StringToNum.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

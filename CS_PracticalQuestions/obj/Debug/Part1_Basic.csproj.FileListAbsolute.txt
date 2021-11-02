@@ -1,0 +1,6 @@
+/Users/dokyunghwang/Projects/CS_PracticalQuestions/CS_PracticalQuestions/obj/Debug/Part1_Basic.csproj.AssemblyReference.cache
+/Users/dokyunghwang/Projects/CS_PracticalQuestions/CS_PracticalQuestions/obj/Debug/Part1_Basic.csproj.CoreCompileInputs.cache
+/Users/dokyunghwang/Projects/CS_PracticalQuestions/CS_PracticalQuestions/bin/Debug/CS_PracticalQuestions.exe
+/Users/dokyunghwang/Projects/CS_PracticalQuestions/CS_PracticalQuestions/bin/Debug/CS_PracticalQuestions.pdb
+/Users/dokyunghwang/Projects/CS_PracticalQuestions/CS_PracticalQuestions/obj/Debug/CS_PracticalQuestions.exe
+/Users/dokyunghwang/Projects/CS_PracticalQuestions/CS_PracticalQuestions/obj/Debug/CS_PracticalQuestions.pdb
